@@ -1,0 +1,137 @@
+@import '../mixin.scss';
+.container {
+  padding: 0 0 60px 0;
+  
+  :global {
+    .am-carousel-wrap {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.modal {
+  :global {
+    .am-list-brief {
+      white-space: pre-line !important;
+    }
+  }
+}
+
+.store {
+  background: var(--main-color) top 10px right 40px / auto 60%  no-repeat;
+  @include bg-image('../assets/bg_shading');
+  border-radius: 10px;
+  margin: -20px 15px 20px 15px;
+  color: #ffffff;
+  position: relative;
+  z-index: 10;
+}
+
+.storeInfo {
+  display: flex;
+  font-size: 16px;
+  padding: 24px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.storeInfoLeft {
+  width: calc(100% - 28px);
+  text-align: left;
+}
+
+.storeName {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.storeTime {
+  font-size: 14px;
+}
+
+.storeInfoRight {
+  width: 28px;
+}
+
+.storeAddr {
+  text-align: left;
+  padding: 14px;
+  font-size: 15px;
+  background-color: var(--main-background-color);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.item {
+  margin: 20px 0;
+  display: flex;
+  padding: 0 15px;
+}
+
+.itemInfo {
+  padding: 5px 15px;
+  flex-grow: 1;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.itemName {
+  font-size: 17px;
+  padding-bottom: 2px;
+  font-weight: 500;
+}
+
+.itemTime {
+  padding-bottom: 10px;
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+.itemPrice {
+  color: var(--red-color);
+}
+
+.itemPrice1 {
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+.itemPrice2 {
+  background: #caa36f;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 2px 5px;
+  display: inline-block;
+  transform: translateY(-2px);
+}
+
+.itemBuy {
+  display: block;
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  border-radius: 30% / 50%;
+  padding: 5px 10px;
+}
+
+.storeChange {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 1px solid rgba(0, 0, 0, .3);
+  background: rgba(255, 255, 255, .5);
+  border-radius: 15% / 50%;
+  padding: 5px 10px;
+}
+
+.price {
+  flex-grow: 1;
+  font-size: 18px;
+  padding: 10px 0;
+}

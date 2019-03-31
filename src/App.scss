@@ -1,0 +1,125 @@
+:root {
+  --main-color: #40B15D;
+  --text-color: #6f6f6f;
+  --main-background-color: #02785c;
+  --main-background-color-light: #40B15D;
+  --base-color: #ababab;
+  --button-text-color: #ffffff;
+  --red-color: #C6354B;
+  --text-black-color: #2a2a2a;
+}
+
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:link,
+a:visited,
+a:focus,
+a:hover {
+  text-decoration: none !important;
+}
+
+.App {
+  width: 100%;
+  top: 0;
+  background-color: #ffffff;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: auto !important;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:global(.am-button) {
+  color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+}
+
+:global(.am-button.am-button-primary) {
+  background-color: var(--main-color) !important;
+  color: #ffffff !important;
+  border-color: var(--main-color) !important;
+}
+
+:global(.am-modal-content) {
+  padding-top: 10px;
+}
+
+
+:global(.am-list-item) {
+  min-height: 55px !important;
+}
+
+:global(.am-list-item .am-list-line .am-list-extra) {
+  flex-basis: 60%;
+}
+
+:global {
+  .am-list-item {
+    .am-list-content {
+      color: var(--text-color) !important;
+    }
+    .am-list-extra {
+      color: #4a4a4a !important;
+      font-weight: bold;
+    }
+  }
+  .dr-list-without-padding .am-list-extra {
+    flex-basis: 60% !important;
+  }
+  .dr-list-without-padding.am-list-item,
+  .dr-list-without-padding .am-list-item {
+    padding-left: 0 !important;
+  }
+  .dr-list-without-padding .am-list-line {
+    padding-right: 0 !important;
+  }
+  .dr-list-without-padding .am-list-item.am-textarea-item {
+    padding-right: 2px !important;
+  }
+  .am-button-primary::before {
+    border-color: var(--main-color) !important;
+  }
+  .dr-list-without-line .am-list-line:after,
+  .dr-list-without-line .am-list-body::after,
+  .dr-list-without-line .am-list-body::before {
+    height: 0 !important;
+  }
+}
+
+.icon {
+  margin-right: 2px;
+  color: var(--main-color) !important;
+}
+
+.hr-light {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 0px solid #d8d8d8;
+}

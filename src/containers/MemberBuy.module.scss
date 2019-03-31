@@ -1,0 +1,47 @@
+@import '../mixin.scss';
+
+.card {
+  background: var(--main-color) top 10px right 40px / auto 60%  no-repeat;
+  @include bg-image('../assets/bg_shading');
+  border-radius: 10px;
+  margin: 20px 15px;
+  padding: 20px 15px;
+  color: #ffffff;
+  height: 145px;
+}
+
+.pay {
+  position: absolute !important;
+  bottom: 10px !important;
+  width: calc(100% - 30px);
+  display: flex;
+  height: 50px;
+  left: 15px;
+}
+
+.payLeft {
+  flex-grow: 2;
+  background: var(--main-color);
+  line-height: 50px;
+  text-align: center;
+  color: var(--button-text-color);
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 1px solid #ffffff;
+}
+
+.cutOff {
+  font-size: 14px;
+}
+
+.payRight {
+  flex-grow: 1;
+}
+
+.payRight a {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  height: 50px !important;
+  line-height: 50px !important;
+}

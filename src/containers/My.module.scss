@@ -1,0 +1,95 @@
+@import '../mixin.scss';
+.container {
+  padding: 20px 15px 60px 15px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  min-height: 100vh;
+  -webkit-overflow-scrolling: auto !important;
+  :global {
+    .am-list-line::after {
+      background-color: rgba(255, 255, 255, 0) !important;
+    }
+    .am-carousel-wrap-dot>span {
+      transform: translateY(10px);
+      width: 16px;
+      border-radius: 5px 50%;
+      height: 4px;
+      background: var(--main-color);
+      opacity: .5;
+    }
+    .am-carousel-wrap-dot.am-carousel-wrap-dot-active>span {
+      opacity: 1;
+    }
+  }
+}
+
+.user {
+  background: var(--main-color) top 10px right 40px / auto 60%  no-repeat;
+  @include bg-image('../assets/bg_shading');
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.userInfo {
+  padding: 20px 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.userImg {
+  width: 66px;
+  height: 66px;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.userName {
+  font-size: 24px;
+  flex-grow: 1;
+}
+
+.userGetMember {
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  color: #9C6A20;
+  padding: 8px 0;
+  background-image: linear-gradient(45deg, #EAD6B2 0%, #D0AD7A 100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.userAsset {
+  background-color: var(--main-background-color);
+  padding: 12px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.userBalance {
+  flex-grow: 1;
+  text-align: center;
+  line-height: 28px;
+}
+
+.userVerticalLine {
+  width: .5px;
+  height: 20px;
+  background: #ffffff;
+}
+
+.userCoupon {
+  flex-grow: 1;
+  text-align: center;
+  line-height: 28px;
+}
+
+.text {
+  color: var(--text-color);
+}

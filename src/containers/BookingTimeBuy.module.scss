@@ -1,0 +1,189 @@
+.price {
+  float: right;
+  color: #C6354B;
+  font-size: 24px;
+}
+
+.price i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.pay {
+  position: absolute !important;
+  bottom: 10px !important;
+  width: calc(100% - 30px);
+  display: flex;
+  height: 50px;
+  left: 15px;
+}
+
+.payLeft {
+  flex-grow: 2;
+  background: var(--main-color);
+  line-height: 50px;
+  text-align: center;
+  color: var(--button-text-color);
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 1px solid #ffffff;
+}
+
+.cutOff {
+  font-size: 14px;
+}
+
+.payRight {
+  flex-grow: 1;
+}
+
+.payRight a {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  height: 50px !important;
+  line-height: 50px !important;
+}
+
+.list {
+  width: 100%;
+  height: 100vh;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.noCoupon {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  padding: 20px 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.coupon {
+  background: url(../assets/pic_ticketbg.png) no-repeat top center / 100% 100%;
+  min-height: 130px;
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.couponWorth {
+  color: var(--red-color);
+}
+
+.couponWorth span {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.couponTitle {
+  font-size: 18px;
+  color: var(--text-black-color);
+  text-align: left;
+  padding: 0 0 0 36px;
+  font-weight: bold;
+}
+
+.couponTitle span {
+  float: right;
+  color: var(--red-color);
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.couponDetail {
+  text-align: left;
+}
+
+.icon {
+  width: 28px !important;
+  height: 28px !important;
+  margin-right: 10px !important;
+  vertical-align: bottom !important;
+}
+
+.item {
+  margin: 20px 0;
+  display: flex;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.itemInfo {
+  padding: 5px 15px;
+  flex-grow: 1;
+  position: relative;
+  text-align: left;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.itemName {
+  font-size: 16px;
+  padding-bottom: 2px;
+}
+
+.itemTime {
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+.itemPrice {
+  color: var(--red-color);
+}
+
+.itemPrice1 {
+  font-size: 24px;
+  padding-right:10px;
+}
+
+.itemPrice2 {
+  background: #caa36f;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 2px 5px;
+  display: inline-block;
+  transform: translateY(-2px);
+}
+
+.itemBuy {
+  display: block;
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+  border: 1px solid var(--red-color);
+  border-radius: 30% / 50%;
+  padding:5px 10px;
+}
+
+.rate {
+  padding-bottom: 10px;
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+.rate span {
+  margin-right: 5px;
+  color: #D0AD7A;
+}
+
+.radio {
+  display: inline-block;
+  width: 24px !important;
+  height: 24px !important;
+  margin-right: 10px !important;
+  vertical-align: sub !important;
+  filter: grayscale(100%);
+  background: url("../assets/ic_success2.png") top center / cover no-repeat;
+  opacity: .3;
+}
+
+.checked {
+  filter: initial;
+  opacity: 1;
+}

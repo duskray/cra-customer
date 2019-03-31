@@ -1,0 +1,24 @@
+@import '../mixin.scss';
+
+.card {
+  background: var(--main-color) top 10px right 40px / auto 60%  no-repeat;
+  @include bg-image('../assets/bg_shading');
+  border-radius: 10px;
+  margin: 20px 15px;
+  padding: 20px 15px;
+  color: #ffffff;
+  height: 145px;
+}
+
+.userGetMember {
+  width: 100px;
+  text-align: center;
+  font-size: 14px;
+  color: #9C6A20;
+  padding: 8px 0;
+  background-image: linear-gradient(45deg, #EAD6B2 0%, #D0AD7A 100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  float:right;
+  transform: translate(15px, -5px);
+}

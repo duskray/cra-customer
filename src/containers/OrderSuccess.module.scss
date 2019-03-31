@@ -1,0 +1,17 @@
+@import '../mixin.scss';
+
+.successIcon {
+  background: top center / cover no-repeat;
+  @include bg-image('../assets/ic_success2');
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 15px;
+}
+
+.finish {
+  position: absolute !important;
+  bottom: 10px !important;
+  width: calc(100% - 30px);
+  display: block;
+  left: 15px;
+}

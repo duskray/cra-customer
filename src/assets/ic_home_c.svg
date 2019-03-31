@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_home_c</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="ic_home_c" transform="translate(-2.000000, -2.000000)" fill-rule="nonzero" stroke-width="2">
+            <g>
+                <path stroke="currentColor" d="M21.375921,9.03484443 L14.6332378,3.51810365 C14.2648719,3.21671338 13.7351281,3.21671338 13.3667622,3.51810365 L3.36676221,11.6999218 C3.13462678,11.8898508 3,12.173946 3,12.4738791 L3,24 C3,24.5522847 3.44771525,25 4,25 L24,25 C24.5522847,25 25,24.5522847 25,24 L25,12" id="Path-7" stroke="#40B15D"></path>
+                <polyline id="Path-4" stroke="var(--svg-color-1, currentColor)" points="11 22 11 16 17 16 17 22"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

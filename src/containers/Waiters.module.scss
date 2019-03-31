@@ -1,0 +1,83 @@
+.item {
+  margin: 20px 0;
+  display: flex;
+  padding: 0 15px;
+}
+
+.itemInfo {
+  padding: 5px 15px;
+  flex-grow: 1;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: left;
+}
+
+.itemName {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.rate {
+  padding-bottom: 10px;
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+.rate span {
+  margin-right: 5px;
+  color: #D0AD7A;
+}
+
+.itemCheck {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 14px);
+  width: 32px !important;
+  height: 32px !important;
+  filter: grayscale(100%);
+  background: url("../assets/ic_success2.png") top center / cover no-repeat;
+  opacity: .3;
+}
+
+.filter {
+  flex-basis: 30%;
+  text-align: center;
+  padding: 15px 0;
+  color: var(--text-color);
+  &.active {
+    color: var(--main-color);
+  }
+}
+
+.radio {
+  display: inline-block;
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 5px !important;
+  vertical-align: sub !important;
+  filter: grayscale(100%);
+  background: url("../assets/ic_success2.png") top center / cover no-repeat;
+  opacity: .3;
+}
+
+.checked {
+  filter: initial;
+  opacity: 1;
+}
+
+.waitingTime {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.waitingQueue {
+  display: block;
+  position: absolute;
+  color: var(--red-color);
+  right: 0;
+  top: 0;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_account_c</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic_account_c" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_account" stroke-width="2">
+            <rect id="Rectangle-12" stroke="currentColor" transform="translate(14.000000, 10.000000) rotate(-90.000000) translate(-14.000000, -10.000000) " x="8" y="5" width="12" height="10" rx="5"></rect>
+            <path stroke="currentColor" d="M4.25209475,25 C6.43045114,21.9718627 9.98494896,20 14,20 C14.8151289,20 15.6112754,20.0812732 16.3807782,20.2361581" id="Combined-Shape" stroke="#40B15D" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M20.5586429,21.949263 C21.4111504,22.7613297 22.1540285,23.7973607 22.7479053,25" id="Path" stroke="var(--svg-color-1, currentColor)" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

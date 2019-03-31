@@ -1,0 +1,38 @@
+.coupon {
+  background: url(../assets/pic_ticketbg.png) no-repeat top center / 100% 100%;
+  min-height: 130px;
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.couponWorth {
+  color: var(--red-color);
+}
+
+.couponWorth span {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.couponTitle {
+  font-size: 18px;
+  color: var(--text-black-color);
+  text-align: left;
+  padding: 0 0 0 36px;
+  font-weight: bold;
+}
+
+.couponTitle span {
+  float: right;
+  color: var(--red-color);
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.couponDetail {
+  text-align: left;
+}

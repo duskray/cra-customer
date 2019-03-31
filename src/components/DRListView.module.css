@@ -1,0 +1,3 @@
+:global(.am-list-body::before)  {
+  background-color: rgba(0,0,0,0) !important;
+}
